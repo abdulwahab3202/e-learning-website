@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    letter-spacing: 0.8px;
+    background-color:#a0AECD;
+}
+header img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header{
+    display: flex;
+    
+}
+header ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 65px;
+}
+header ul{
+    margin-left: 50px;
+    padding-top: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.header{
+    background-image: url('../template4.jpg');
+    background-size: cover;
+}
+header ul li a:hover{
+    color:#ff6200;
+    transition: 0.5s ease;
+}
+nav{
+    padding-bottom: 150px;
+    padding-top: 130px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+.nav1{
+    background: linear-gradient(180deg,#00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+.nav2{
+    background: linear-gradient(180deg,#00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+.flex1{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    line-height: 20px;
+}
+.one{
+    background-color: rgb(16, 14, 14);
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.two{
+    background-color: rgb(16, 14, 14);
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.three{
+    background-color: rgb(16, 14, 14);
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.four{
+    background-color: rgb(16, 14, 14);
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.flex1{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    line-height: 20px;
+}
+.one{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.two{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.three{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.four{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.flex2{
+    display: flex;
+    text-align: center;
+    line-height: 20px;
+    padding: 20px 120px;
+}
+.five{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 100px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.six{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 90px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 120px;
+}
+.flex3{
+    display: flex;
+    text-align: center;
+    line-height: 20px;
+    padding: 20px 120px;
+}
+.seven{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 70px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.eight{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 90px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 120px;
+}
+.fa-solid{
+    font-size: 50px;
+    color: aqua;
+}
+.copy{
+    background-color:#6d0555;
+    color: white;
+}
+.incopy{
+    display: flex;
+    margin-top: 40px;
+}
+.right img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top:60px;
+}
+.right p{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.learn ul{
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.learn ul li{
+    list-style-type: none;
+    line-height: 25px;
+}
+.about ul{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.about ul li{
+    list-style-type: none;
+    line-height: 25px;
+}
+.news{
+    margin-top: 45px;
+    margin-left: 90px;
+}
+.news  input{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(4px 2px 4px black);
+}
+.news a{
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: black;
+    border-radius: 15px;
+    color: aqua;
+    border: none;
+}
+.news a:hover{
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+.outcopy{
+    display: flex;
+    margin-top: 40px;
+}
+.out1 ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 40px;
+}
+.out2{
+    margin-left: 800px;
+}
+.out2 i{
+    margin-right: 15px;
+}
+.about ul li a{
+    text-decoration: none;
+    color: white;
+}

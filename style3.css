@@ -1,0 +1,43 @@
+body{
+    background-color:#6BB77B;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.8px;
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    color: aqua;
+    margin-right: 10px;
+}
+form{
+    margin-left:135px;
+}
+.input{
+    border-radius:10px;
+    border: none;
+    padding: 2px;
+}
+a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px 110px;
+    border-radius: 19px;
+    background-color: #13ee08;
+}
+.header{
+    padding: 50px 0px 0px 0px;
+    height: 500px;
+    margin-top: 90px;
+    background-color: black;
+    margin-left:30%;
+    margin-right:30%;
+    border-radius: 10px;
+    filter: drop-shadow(10px 5px 10px #172D13);
+}
+label{
+    color: aqua;
+}
+a:hover{
+    background-color: #ff6200;
+}
